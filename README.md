@@ -31,4 +31,10 @@ In React, you can create distinct components that encapsulate the behavior you n
 A class component must include the extends React.Component statement. This statement creates an inheritance to React.Component, and gives your component access to React.Component's functions.
 
 
+#### State and Life Cycle
+- Startup
+- Mounting
+- Update
+- Disassembly
+- Ecosystem
 
