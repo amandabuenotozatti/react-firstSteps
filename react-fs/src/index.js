@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
+import Button from './Button';
 
-const element = 'Digital Innovation';
-const element2 = <h1>Hello, React!</h1>
+function sum(a, b) {
+  alert(a + b);
+}
 
 function App() {
   return (
-    <div>
-      {element}
-      {element2}
+    <div className="app">
+      Hello, React!
+      <Button onClick={() => sum(10, 20)} name="Amanda Tozatti" />
     </div>
   )
 }
